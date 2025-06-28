@@ -1,4 +1,4 @@
-function [sub_acc1,transfer_loss1,transfer_loss2,transfer_loss3]=fun_dtcca(f_idx,num_of_trials,TW,dataset_no)
+function [sub_acc1,sub_acc2,sub_acc3]=fun_dtcca(f_idx,num_of_trials,TW,dataset_no)
 
 
 
@@ -283,8 +283,8 @@ for sn=1:num_of_subj
 
                             myitR1(sub_band,j)=sign(r1(1,2))*r1(1,2)^2;
                             myitR2(sub_band,j)=sign(r1(1,2))*r1(1,2)^2+sign(r3(1,2))*r3(1,2)^2;
-                            myitR3(sub_band,j)=sign(r2(1,2))*r2(1,2)^2+sign(r3(1,2))*r3(1,2)^2;   
-                            % myitR3(sub_band,j)=sign(r1(1,2))*r1(1,2)^2+sign(r2(1,2))*r2(1,2)^2+sign(r3(1,2))*r3(1,2)^2;       
+                            % myitR3(sub_band,j)=sign(r2(1,2))*r2(1,2)^2+sign(r3(1,2))*r3(1,2)^2;   
+                            myitR3(sub_band,j)=sign(r1(1,2))*r1(1,2)^2+sign(r2(1,2))*r2(1,2)^2+sign(r3(1,2))*r3(1,2)^2;       
                         end
                     end
                     
