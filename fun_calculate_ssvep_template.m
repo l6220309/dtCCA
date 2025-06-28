@@ -84,11 +84,11 @@ for sn=1:num_of_subj
 end
 filename=mfilename('fullpath');
 if dataset_no==1
-    save('th_ssvep_template_for_stcca.mat','subj','filename');
+    save('th_ssvep_template_for_dtcca.mat','subj','filename');
 elseif dataset_no==2
-    save('beta_ssvep_template_for_stcca.mat','subj','filename');
+    save('beta_ssvep_template_for_dtcca.mat','subj','filename');
 elseif dataset_no==3
-    save('ucsd_ssvep_template_for_stcca.mat','subj','filename');
+    save('ucsd_ssvep_template_for_dtcca.mat','subj','filename');
 else
 end
     
