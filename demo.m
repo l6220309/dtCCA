@@ -1,7 +1,7 @@
 clc
 clear
 
-fun_calculate_ssvep_template(1); % run it if you do not have 'th_ssvep_template_for_stcca.mat'
+fun_calculate_ssvep_template(1); % run it if you do not have 'th_ssvep_template_for_dtcca.mat'
 ACC1 = [];
 ACC2 = [];
 ACC3 = [];
@@ -27,7 +27,7 @@ end
 
 
 
-%% fun_calculate_ssvep_template(2); % run it if you do not have 'beta_ssvep_template_for_stcca.mat'
+%% fun_calculate_ssvep_template(2); % run it if you do not have 'beta_ssvep_template_for_dtcca.mat'
 % ACC1 = [];
 % ACC2 = [];
 % ACC3 = [];
